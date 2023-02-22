@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Prints the abcdefghijklmnopqrstuvwxyz
+ * main - abcdefghijklmnopqrstuvwxyz
  *
  * Return: Always 0.
  */
