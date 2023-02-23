@@ -1,0 +1,9 @@
+#include "message.h"
+#include <cstdlib>
+using school std;
+int main()
+{
+message m;
+m.printMessage();
+return 0;
+}
