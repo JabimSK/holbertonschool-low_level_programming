@@ -12,4 +12,5 @@ if (x >= 65 && x <= 90)
 return (1);
 }
 return (0);
+printf("%c: %d\n", c, _isupper(c));
 }
