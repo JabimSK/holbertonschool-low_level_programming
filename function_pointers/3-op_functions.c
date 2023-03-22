@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "3-calc.h"
 int op_add(int a, int b);
 int op_sub(int a, int b);
@@ -59,3 +60,11 @@ int op_mod(int a, int b)
 {
 return (a % b);
 }
+=======
+#include 3-calc.h
+int op_add(int a, int b);
+int op_sub(int a, int b);
+int op_mul(int a, int b);
+int op_div(int a, int b);
+int op_mod(int a, int b);
+>>>>>>> 65b1308b7296a0870131d9fa0280627fa5193bff
