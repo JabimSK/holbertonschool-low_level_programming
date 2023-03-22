@@ -2,11 +2,10 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
- * print_string - followed by a new line
- * @separator: string to be printed between the strings.
- * @n: number of string passed to the fuction.
- *
- * Return: no return.
+ * print_strings - prints strings, followed by a new line
+ * @separator: char string to be printed between numbers
+ * @n: number of arguments
+ * Return: void
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
