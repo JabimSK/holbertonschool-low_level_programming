@@ -18,9 +18,9 @@ for (i = 0 ; i < n ; i++)
 string = va_arg(data, char);
 if (string == NULL)
 {
-string = "(nil)";
+string = ("(nil)");
 }
-printf("%s", string);
+printf("%d", *string);
 if (separator != NULL && i < n - 1)
 {
 printf("%s", separator);
